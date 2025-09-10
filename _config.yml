@@ -1,8 +1,10 @@
 title: Green Jekyll Site
 description: A simple Jekyll site with green theme.
-baseurl: "" # Change if using a subdirectory
-url: "" # Your site URL
+baseurl: ""
+url: "https://cfcbermuda.github.io"
 permalink: /:title/
+future: true # Enable future-dated posts
+theme: null # Disable default theme
 defaults:
   - scope:
       path: ""

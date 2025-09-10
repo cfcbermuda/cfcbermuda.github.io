@@ -1,11 +1,10 @@
 ---
 ---
-@import "bootstrap/scss/bootstrap"; // If local Bootstrap; but using CDN, override here
-
+/* Custom styles for Green Jekyll Site */
 :root {
-  --bs-primary: #28a745; // Green
-  --bs-secondary: #007bff; // Blue
-  --bs-warning: #ffc107; // Yellow
+  --bs-primary: #28a745; /* Green */
+  --bs-secondary: #007bff; /* Blue */
+  --bs-warning: #ffc107; /* Yellow */
 }
 
 .shape-rect {
