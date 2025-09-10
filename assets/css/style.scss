@@ -1,0 +1,36 @@
+---
+---
+@import "bootstrap/scss/bootstrap"; // If local Bootstrap; but using CDN, override here
+
+:root {
+  --bs-primary: #28a745; // Green
+  --bs-secondary: #007bff; // Blue
+  --bs-warning: #ffc107; // Yellow
+}
+
+.shape-rect {
+  background-color: var(--bs-secondary);
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.shape-circle {
+  background-color: var(--bs-warning);
+  color: black;
+  padding: 20px;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px auto;
+}
+
+.logo-placeholder {
+  background-color: #6c757d;
+  padding: 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,10 @@
+title: Green Jekyll Site
+description: A simple Jekyll site with green theme.
+baseurl: "" # Change if using a subdirectory
+url: "" # Your site URL
+permalink: /:title/
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
